@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+.colored-section {
+  background-color: #363e3e;
+  color: white;
+}
+
+.logo-image {
+  width: 45px;
+  padding: 0 4px;
+  border-radius: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Barlow Condensed';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+body {
+  background: #f7f6f6;
+  font-family: Montserrat;
+}
+
+h1 {
+  text-align: center;
+  font-family: Montserrat;
+  color: #252525;
+}
+
+#product-grid {
+
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+.btn{
+  color:blue;
+}
+.product {
+  float: left;
+  text-align: center;
+  padding: 3%;
+  width: 400px;
+  margin: 20px;
+  margin-left: 100px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  border-radius: 12%;
+}
+
+.product img {
+  /* width: 100%; */
+  text-align: center;
+  height: 200px;
+  padding: 40px;
+  object-fit: cover;
+  border-radius: 90%;
+}
+
+.product h2 {
+  display: none;
+  padding: 10px;
+  font-size: 18px;
+  font-style: bold;
+  margin: 10px 0;
+}
+
+.product .price {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product .add-to-cart {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product .add-to-cart:hover {
+  background-color: #444;
+}
+
+/* .product-imgs{
+  width: 2%;
+} */
+
+.cart-header {
+  color:rgb(255, 255, 255);
+}
+.cart{
+  width: 22%;
+  margin-right: 0;
+  background-color: rgb(234, 230, 230);
+}
+.cartcontent{
+  display: block;
+}
+.cart-row{
+  width: 100%;
+}
+.cart-items{
+width: 100%;
+background-color: antiquewhite;
+}
+
